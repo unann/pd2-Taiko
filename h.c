@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-	Sudoku ss;
-	ss.giveQuestion();
+	cout<<"he"<<endl;
 	return 0;
 }

@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 	Sudoku ss;
-	ss.giveQuestion();
+	ss.readIn();
+	ss.transform();
 	return 0;
 }

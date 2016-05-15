@@ -10,13 +10,15 @@ class solve
 			        solve();
 					        void setBoard(int row,int col,int num);
 							        int getBoard(int row, int col);
-									        bool solve();
+									        bool tursh();
 											    
 											    private:
 											        bool debug;
-													        void printNum(innt row,int col);
-															        bool solve(int row,int col);
-																	        bool tstNum(int row, int col);//setlesen hariugaa nohtsold n taarch bga esehiig shalgana
+													        void printNum(int row,int col);
+															        bool test(int row,int col);
+																	        bool tstNum(int row, int col);/*setlesen hariugaa nohtsold n taarch bga esehiig shalgana*/
+friend class Sudoku;
 };
 
 
+#endif
